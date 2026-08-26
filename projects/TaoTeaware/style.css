@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400&family=Inter:wght@500;600;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Atkinson Hyperlegible Next", Arial, sans-serif;
+  margin: 0;
+  background-color: #f7f6f2;
+color: #171717;
+font-size: 24px;
+}
+header{
+    background-color: #f7f6f2;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 14px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #171717;
+}
+header a {
+    color:#171717;
+    text-decoration: none;
+}
+header nav {
+  display: flex;
+  gap: 16px;
+}
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 64px 0 0;
+}
+h1 {
+  font-family: Inter, Arial, sans-serif;
+  font-size: 64px;
+  font-weight: 600;
+  color: #294c6b;
+  margin: 0;
+}
+.hero {
+    background-color: #f7f6f2;
+    padding: 48px 24px 0;
+    text-align: center;
+}
+.project-info {
+    margin-top: 8px;
+    background-color: #294c6b;
+    color: #f7f6f2;
+    padding: 16px 24px;
+}
+.project-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+.project-info li {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 0;
+}
+.hero p {
+    font-size: 16px;
+    margin: 4px 0 0;
+}
+.hero-image {
+    width: 100%;
+    max-width: 720px;
+    aspect-ratio: 2 / 1 ;
+    object-fit: cover;
+    display: block;
+    margin: 16px auto 0;
+}
+.project-info li strong {
+    font-size: 24px;
+}
+.project-info li span {
+    font-size: 16px;
+}
