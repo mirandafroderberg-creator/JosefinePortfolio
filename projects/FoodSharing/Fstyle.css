@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@300;400;600&family=Inter:wght@400;600;700&display=swap');
+body{
+    background-color: #F7F6F2;
+    color: #171717;
+    font-family: "Atkinson Hyperlegible Next";
+    
+}
+h1, h2, h3{
+    font-family: "Inter";
+}
+
+h1{
+    font-size: 64px;
+    color: #294C6B;
+}
+h2{
+    font-size: 36px;
+}
+h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #171717;
+}
+.HeroSection h1{
+    text-align: center;
+    margin: auto auto 10px auto;
+
+}
+.HeroSection p{
+    text-align: center;
+}
+.Large{
+    width: 100%;
+    max-width: 1281;
+    max-width: auto;
+}
+.InfoList{
+    display: grid;
+    grid-template-columns:repeat(6,1fr);
+    background-color: #294C6B;
+    width: 100%;
+    padding-bottom: 0px;
+    padding-top: 0%;
+    
+}
+.InfoCard{
+    color: #F7F6F2;
+    padding: 32px 32px;
+
+}
+.InfoCard h3{
+    margin: 0px auto;
+    color: #F7F6F2;
+}
+.InfoCard ul{
+    padding-left: 0px;
+    list-style-position: inside;
+    white-space: nowrap;
+}
+.challenge{
+   margin: auto 20px;   
+}
+.Goals{
+    background-color: #294C6B;
+}
+.Goals h2{
+    color: #F7F6F2;
+}
+.Goals li{
+    color: #F7F6F2;
+}
+.Research img{
+    width: 100%;
+    max-width:1281px;
+    height: auto;
+
+}
+.Architecture img{
+    width: 100%;
+    max-width: 1148px;
+    height: auto;
+
+}
+.Wireframe h2{
+    color: #F7F6F2;
+}
+.Wireframe p{
+    color: #F7F6F2;
+}
+.Wireframe{
+    background-color: #294C6B;
+}
+.Imagegrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-top: 15px;
+    margin-right: 105px;
+    margin-bottom: 105px;
+    margin-left: 105px;
+    padding: 105px;
+    justify-items: center;
+
+    
+}
+.SmalVeriant{
+    width: auto;
+    max-width: 604px;
+    height: auto;
+    max-height: 537px;
+
+}
+.FinalDesign{
+    background-color: #294C6B;
+}
+.FinalImages{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 15px;
+    margin-right: 105px;
+    margin-bottom: 105px;
+    margin-left: 105px;
+    padding: 105px;
+    justify-items: center;
+}
+
+

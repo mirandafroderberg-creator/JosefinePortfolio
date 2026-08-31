@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 841.8898 316.4475">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 18.344px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        isolation: isolate;
+      }
+
+      .cls-1, .cls-2, .cls-4, .cls-5, .cls-6, .cls-9 {
+        font-family: ArialMT, Arial;
+      }
+
+      .cls-2 {
+        letter-spacing: -.0731em;
+      }
+
+      .cls-2, .cls-10, .cls-6 {
+        fill: #2d3b2d;
+      }
+
+      .cls-2, .cls-6 {
+        font-size: 15.0087px;
+      }
+
+      .cls-11 {
+        fill: none;
+      }
+
+      .cls-12 {
+        letter-spacing: -.0181em;
+      }
+
+      .cls-4 {
+        font-size: 22.5131px;
+      }
+
+      .cls-5, .cls-7 {
+        font-size: 20.0116px;
+      }
+
+      .cls-7, .cls-8 {
+        font-family: Georgia, Georgia;
+      }
+
+      .cls-8, .cls-9 {
+        font-size: 40.0232px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <rect class="cls-10" x="583.0071" y="22.2173" width="2.3635" height="281.3971"/>
+    <g class="cls-3">
+      <text class="cls-2" transform="translate(12.4123 41.6756)"><tspan x="0" y="0">T</tspan></text>
+      <text class="cls-6" transform="translate(20.7521 41.6756)"><tspan x="0" y="0">ypeface for headings</tspan></text>
+    </g>
+    <g class="cls-3">
+      <text class="cls-8" transform="translate(11.2658 98.4681)"><tspan x="0" y="0">Georgia</tspan></text>
+    </g>
+    <g class="cls-3">
+      <text class="cls-7" transform="translate(8.2404 145.8558)"><tspan x="0" y="0">ABCDEFGHIJKLMNOPQRS</tspan></text>
+      <text class="cls-7" transform="translate(8.2404 169.8704)"><tspan x="0" y="0">TUVWXYZÅÄÖ</tspan></text>
+      <text class="cls-7" transform="translate(8.2404 217.8982)"><tspan x="0" y="0">abcdefghijklmnopqrstuvxyzåä</tspan></text>
+      <text class="cls-7" transform="translate(8.2404 241.9119)"><tspan x="0" y="0">ö</tspan></text>
+    </g>
+    <g class="cls-3">
+      <text class="cls-2" transform="translate(308.8107 41.3392)"><tspan x="0" y="0">T</tspan></text>
+      <text class="cls-6" transform="translate(317.1506 41.3392)"><tspan x="0" y="0">ypeface for Subheadings and body text</tspan></text>
+    </g>
+    <g class="cls-3">
+      <text class="cls-9" transform="translate(307.6633 96.5301)"><tspan x="0" y="0">Arial</tspan></text>
+    </g>
+    <g class="cls-3">
+      <text class="cls-5" transform="translate(304.6379 144.719)"><tspan x="0" y="0">ABCDEFGHIJKLMNOPQRS</tspan><tspan class="cls-12" x="254.6299" y="0">T</tspan></text>
+      <text class="cls-5" transform="translate(304.6379 168.7327)"><tspan x="0" y="0">UVXYZÅÄÖ</tspan></text>
+      <text class="cls-5" transform="translate(304.6379 216.761)"><tspan x="0" y="0">abcdefghijklmnopqrstuvxyzåä</tspan></text>
+      <text class="cls-5" transform="translate(304.6379 240.7747)"><tspan x="0" y="0">ö</tspan></text>
+    </g>
+    <g class="cls-3">
+      <text class="cls-6" transform="translate(600.8332 43.6624)"><tspan x="0" y="0">Example</tspan></text>
+    </g>
+    <g class="cls-3">
+      <text class="cls-8" transform="translate(599.6857 100.4544)"><tspan x="0" y="0">Header</tspan></text>
+    </g>
+    <g class="cls-3">
+      <text class="cls-4" transform="translate(601.6672 128.8055)"><tspan x="0" y="0">Subheader</tspan></text>
+      <text class="cls-1" transform="translate(594.6616 177.8343)"><tspan x="0" y="0">Body text Body text Body text</tspan></text>
+      <text class="cls-1" transform="translate(594.6616 199.8465)"><tspan x="0" y="0">Body textBody textBody text</tspan></text>
+      <text class="cls-1" transform="translate(595.6624 221.8592)"><tspan x="0" y="0">Body text</tspan></text>
+    </g>
+    <line class="cls-11" x1="601.668" y1="165.1765" x2="609.9276" y2="313.6991"/>
+    <rect class="cls-10" x="286.0777" y="23.2942" width="2.3635" height="279.223"/>
+  </g>
+</svg>
