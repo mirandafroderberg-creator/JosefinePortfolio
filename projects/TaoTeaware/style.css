@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400&family=Inter:wght@500;600;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Atkinson Hyperlegible Next", Arial, sans-serif;
+  margin: 0;
+  background-color: #f7f6f2;
+color: #171717;
+font-size: 24px;
+}
+header{
+    background-color: #f7f6f2;
+    max-width: 1281px;
+    width: calc (100% - 64px)
+    margin: 0 auto;
+    padding: 14px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #171717;
+}
+header a {
+    color:#171717;
+    text-decoration: none;
+}
+header nav {
+  display: flex;
+  gap: 16px;
+}
+main {
+  max-width: 1281px;
+  width: calc(100% - 64px);
+  margin: 0 auto;
+  padding: 64px 0 0;
+}
+h1 {
+  font-family: Inter, Arial, sans-serif;
+  font-size: 64px;
+  font-weight: 600;
+  color: #294c6b;
+  margin: 0;
+}
+.hero {
+    background-color: #f7f6f2;
+    padding: 48px 24px 0;
+    text-align: center;
+}
+.project-info {
+    margin-top: 8px;
+    background-color: #294c6b;
+    color: #f7f6f2;
+    padding: 16px 24px;
+}
+.project-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+.project-info li {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 0;
+}
+.hero p {
+    font-size: 16px;
+    margin: 4px 0 0;
+}
+.hero-image {
+    width: 100%;
+    max-width: 1281px;
+    aspect-ratio: 1281 / 585 ;
+    object-fit: cover;
+    display: block;
+    margin: 16px auto 0;
+}
+.project-info li strong {
+    font-size: 24px;
+}
+.project-info li span {
+    font-size: 16px;
+}
+h2 {
+  font-family: Inter, Arial, sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  margin: 0 0 16px;
+}
+
+.challenge,
+.research,
+.concept-development,
+.final-design {
+  padding: 48px 24px;
+}
+
+.challenge p,
+.research p,
+.concept-development p,
+.visual-design p {
+  margin: 0;
+}
+
+.goals,
+.visual-design {
+  background-color: #294c6b;
+  color: #f7f6f2;
+  padding: 48px 24px;
+}
+
+.goals ul {
+  margin: 0;
+  padding-left: 28px;
+}
+
+.research,
+.concept-development,
+.final-design {
+  border-top: 1px solid #171717;
+}
+
+.image-placeholder {
+  display: grid;
+  place-items: center;
+  min-height: 180px;
+  aspect-ratio: 604 / 537;
+  background-color: #d9d9d9;
+  color: #171717;
+  font-size: 16px;
+  text-align: center;
+  padding: 16px;
+}
+
+.image-placeholder--large {
+  margin-top: 24px;
+  aspect-ratio: 1281 / 585;
+}
+
+.research .image-placeholder--large {
+  aspect-ratio: 1281 / 535;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.visual-design .image-placeholder {
+  background-color: #f7f6f2;
+}
+
+footer {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 20px 24px;
+  background-color: #294c6b;
+}
+
+footer a {
+  margin-right: 16px;
+  color: #f7f6f2;
+  text-decoration: none;
+  font-size: 16px;
+}
+.project-image {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+.project-image--research {
+  margin-top: 24px;
+  aspect-ratio: 1281 / 535;
+}
+
+.image-grid .project-image {
+  aspect-ratio: 604 / 537;
+  object-fit: cover;
+}
+.project-image--final {
+  margin-top: 24px;
+  aspect-ratio: 1281 / 585;
+}
+header,
+main,
+footer {
+  width: min(1281px, calc(100% - 64px));
+  max-width: none;
+  margin-left: auto;
+  margin-right: auto;
+}

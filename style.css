@@ -1,1 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@300;400;600&family=Inter:wght@400;600;700&display=swap');
+body{
+    background-color: #F7F6F2;
+    color: #171717;
+    font-family: "Atkinson Hyperlegible Next";
+    
+}
+h1, h2, h3{
+    font-family: "Inter";
+}
+
+h1{
+    font-size: 64px;
+    color: #294C6B;
+}
+h2{
+    font-size: 36px;
+}
+h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #171717;
+}
+
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #171717;
+}
+
+#name{
+    display: flex;
+    padding: 10px 10px;
+    margin: 15px 28px 15px 28px;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#navigationHeader li{
+   display: inline;
+   padding: 10px 10px;
+   margin: 15px 28px 15px 28px;
+   text-align: right;
+   font-size: 24px;
+   font-weight: 600;
+ 
+}
+
+.HeroSection{
+   text-align: center;
+}
+
+.HeroSection h1{
+    font-weight: bold;
+    font-size: 64px;
+    color: #294C6B;
+    text-align: center;
+    margin-top: 133px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.HeroSection ul{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin-bottom: 46px;
+    font-weight: bold;
+}
+.HeroSection li{
+    display: inline;
+   margin: 0px 20px;
+}
+.HeroSection p{
+    text-align: center;
+    font-size: 24;
+}
+
+.HeroSection img{
+    margin-top: 58px;
+    width: 70px;
+    height:auto;
+}
+.card-section{
+    padding: 30px;
+    margin-top: 143px auto;
+    background-color: #294C6B;
+}
+.card-section h2{
+    color: #F7F6F2;
+    font-weight: bold;
+}
+.card-contrainer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+     
+}
+.Card{
+    display: inline;
+    justify-content: space-between;
+    background-color: #F7F6F2;
+    padding: auto 15px auto 20px;
+    border-radius: 5px;
+}
+
+.Card h3{
+    padding-left: 20px;
+}
+.imageCard{
+    max-width: 1243px;
+    margin: auto 77px;
+    aspect-ratio: 1243/460;
+}
+.Big-Card{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+
+}
+.imageCard h3{
+    margin-top: 10px;
+    margin-bottom: 7px;
+    margin-left: 18px;
+}
+.Project-type{
+    font-weight: 200;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 18px;
+}
+.Project-description{
+    font-weight: 400;
+    margin-left: 18px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.SmallCards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 49px 77px 49px 77px;
+}
+
+.Small-card{
+    width: 100%;
+    max-width: 596px;
+    aspect-ratio: 596 / 460;
+    object-fit: cover;
+    display: block;
+}
+.SmallImageCard h3{
+    margin-top: 10px;
+    margin-bottom: 7px;
+    margin-left: 18px;
+}
+.SmallText{
+    border: #171717 solid 1px;
+}
+
 
