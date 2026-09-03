@@ -3,7 +3,7 @@ body{
     background-color: #F7F6F2;
     color: #171717;
     font-family: "Atkinson Hyperlegible Next";
-    
+    /* Om du inte vill ha lite white space runt allt på sidan: margin: 0; */
 }
 h1, h2, h3{
     font-family: "Inter";
@@ -93,16 +93,15 @@ h3{
     color: #F7F6F2;
     font-weight: bold;
 }
-.card-contrainer{
+.card-contrainer{ /* "contRainer?" och var det inte denna som ska ha vit bakgrund? Eller har du ändrat design att det ska vara en lucka mellan cardsen? */
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 20px;
-     
 }
 .Card{
     display: inline;
     justify-content: space-between;
-    background-color: #F7F6F2;
+    background-color: #F7F6F2; /* Denna jag menar alltså. Att bakgrundsfärg ska vara på containern? */
     padding: auto 15px auto 20px;
     border-radius: 5px;
 }
@@ -112,7 +111,7 @@ h3{
 }
 .imageCard{
     max-width: 1243px;
-    margin: auto 77px;
+    margin: auto 77px; /* Om du vill då centrerad så ska auto ha plats 2. SÅ tvärtom */
     aspect-ratio: 1243/460;
 }
 .Big-Card{
@@ -155,6 +154,7 @@ h3{
     object-fit: cover;
     display: block;
 }
+/* Lägg in en ".SmallImageCard" för att stylea så att bild och textruta alltid får samma bredd */
 .SmallImageCard h3{
     margin-top: 10px;
     margin-bottom: 7px;
