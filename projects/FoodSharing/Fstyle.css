@@ -3,7 +3,9 @@ body{
     background-color: #F7F6F2;
     color: #171717;
     font-family: "Atkinson Hyperlegible Next";   
+    /* Lägg in margin 0 om det inte ska finnas white space runt allt */
 }
+/* Girl, varför heter detta dokument Fstyle? Vad står F för? */
 
 h1, h2, h3{
     font-family: "Inter";
@@ -70,7 +72,7 @@ h3{
 .Goals{
     background-color: #294C6B;
 }
-.Goals h2{
+.Goals h2{ /*Om flera klasser har samma innehåll kan man samla dessa med hjälp av "," så sparar man rader. Du har 4st som har samma innehåll */
     color: #F7F6F2;
 }
 .Goals li{
