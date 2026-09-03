@@ -38,7 +38,8 @@ p {
     height: auto;
 }
 
-.navbar {
+/* När det bara finns en "navbar" på sidan kan man ta bort klassen och bara använda "nav" i CSS:en. Du skriver då bara "nav", ingen punkt innan alltså */
+.navbar { /* Saknar en max-width här för att inte sträcka sig över hela skärmen */
     
     background-color: #F7F6F2;
     
