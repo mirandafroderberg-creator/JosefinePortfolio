@@ -6,34 +6,37 @@ body {
   font-family: "Atkinson Hyperlegible Next", Arial, sans-serif;
   margin: 0;
   background-color: #f7f6f2;
-color: #171717;
-font-size: 24px;
+  color: #171717;
+  font-size: 24px;
 }
+
 header{
-    background-color: #f7f6f2;
-    max-width: 1281px;
-    width: calc (100% - 64px)
-    margin: 0 auto;
-    padding: 14px 24px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid #171717;
+  background-color: #f7f6f2;
+  max-width: 1281px;
+  width: calc (100% - 64px); /*Saknades semicolon här */
+  margin: 0 auto;
+  padding: 14px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #171717;
 }
 header a {
-    color:#171717;
-    text-decoration: none;
+  color:#171717;
+  text-decoration: none;
 }
 header nav {
   display: flex;
   gap: 16px;
 }
+
 main {
-  max-width: 1281px;
-  width: calc(100% - 64px);
+  max-width: 1281px; /* Detta påverkar allt på sidan, även sådant som enligt figma-designen ska sträcka sig över hela skärmen */
+  width: calc(100% - 64px); /* Samma med denna */
   margin: 0 auto;
   padding: 64px 0 0;
 }
+
 h1 {
   font-family: Inter, Arial, sans-serif;
   font-size: 64px;
@@ -41,49 +44,50 @@ h1 {
   color: #294c6b;
   margin: 0;
 }
+
 .hero {
-    background-color: #f7f6f2;
-    padding: 48px 24px 0;
-    text-align: center;
+  background-color: #f7f6f2;
+  padding: 48px 24px 0;
+  text-align: center;
 }
-.project-info {
-    margin-top: 8px;
-    background-color: #294c6b;
-    color: #f7f6f2;
-    padding: 16px 24px;
+.project-info { /* width: 100%; */
+  margin-top: 8px;
+  background-color: #294c6b;
+  color: #f7f6f2;
+  padding: 16px 24px;
 }
 .project-info ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: space-between;
-    gap: 16px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
 }
 .project-info li {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-    margin-bottom: 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 0;
 }
 .hero p {
-    font-size: 16px;
-    margin: 4px 0 0;
+  font-size: 16px;
+  margin: 4px 0 0;
 }
 .hero-image {
-    width: 100%;
-    max-width: 1281px;
-    aspect-ratio: 1281 / 585 ;
-    object-fit: cover;
-    display: block;
-    margin: 16px auto 0;
+  width: 100%;
+  max-width: 1281px;
+  aspect-ratio: 1281 / 585 ;
+  object-fit: cover;
+  display: block;
+  margin: 16px auto 0;
 }
 .project-info li strong {
-    font-size: 24px;
+  font-size: 24px;
 }
 .project-info li span {
-    font-size: 16px;
+  font-size: 16px;
 }
 h2 {
   font-family: Inter, Arial, sans-serif;
@@ -121,11 +125,10 @@ h2 {
 .research,
 .concept-development,
 .final-design {
-  border-top: 1px solid #171717;
+  border-top: 1px solid #171717; /* Border? Finns ej i Figma?*/
 }
 
-.image-placeholder {
-  display: grid;
+.image-placeholder { /* Finns det någon placeholder class i din html? */
   place-items: center;
   min-height: 180px;
   aspect-ratio: 604 / 537;
@@ -145,7 +148,7 @@ h2 {
   aspect-ratio: 1281 / 535;
 }
 
-.image-grid {
+.image-grid { /* Grid 1, behövs ett till grid för att stylea de sista 2 bilderna som ska vara bredare */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 16px;
