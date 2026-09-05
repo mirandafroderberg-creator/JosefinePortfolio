@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #f7f6f2;
+  color: #171717;
+  font-family: "Atkinson Hyperlegible Next", Arial, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Inter, Arial, sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 32px;
+}
+nav {
+  display: flex;
+  gap: 32px;
+}
+h1 {
+  font-size: 64px;
+  font-weight: 600;
+}
+h2 {
+  font-size: 36px;
+  font-weight: 600;
+}
+h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+p {
+  font-size: 24px;
+}
+.hero {
+  padding: 80px 32px;
+}
+.project-info {
+  display: flex;
+  background-color: #294c6b;
+  justify-content: space-between;
+  padding: 24px 32px;
+  color: #f7f6f2;
+}
+.challenge {
+  padding: 48px 32px;
+}
+.goals {
+  background-color: #294c6b;
+  color: #f7f6f2;
+  padding: 40px 32px;
+}
+.visual-design {
+  padding: 48px 32px;
+}
+
+.final-campaign {
+  background-color: #294c6b;
+  color: #f7f6f2;
+  padding: 48px 32px;
+}
+.project-image {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+main {
+  max-width: 1281px;
+  margin: 0 auto;
+}
+video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
