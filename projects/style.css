@@ -16,18 +16,18 @@ p {
 }
 
 
-.hero h1 {
+header h1 {
     text-align: center;
     margin-top: 50px;
     color: #294C6B;
     letter-spacing: 1px;
 }
 
-.hero p {
+header p {
     text-align: center;
 }
 
-.hero a {
+header a {
     display: block;
     text-align: center;
 }
@@ -38,8 +38,8 @@ p {
     height: auto;
 }
 
-/* När det bara finns en "navbar" på sidan kan man ta bort klassen och bara använda "nav" i CSS:en. Du skriver då bara "nav", ingen punkt innan alltså */
-.navbar { /* Saknar en max-width här för att inte sträcka sig över hela skärmen */
+
+nav { /* Saknar en max-width här för att inte sträcka sig över hela skärmen - Ska den inte sträcka sig över hela skärmen? */
     
     background-color: #F7F6F2;
     
@@ -80,7 +80,7 @@ nav hr {
        
 }
 
-.hero {
+header {
     background-color: #F7F6F2;
     padding: 50px 0;
 }
