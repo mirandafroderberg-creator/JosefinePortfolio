@@ -47,7 +47,7 @@ p {
     
 }
 
-.navbar ul {
+nav ul {
     margin: 0;
     padding: 15px 50px;
     list-style-type: none;
@@ -56,24 +56,24 @@ p {
     
 }
 
-.navbar li:first-child {
+nav li:first-child {
     margin-right: auto;
 }
 
-.navbar li + li {
+nav li + li {
     margin-left: 30px;
 }
 
 
 
 
-.navbar a {
+nav a {
     color: black;
     text-decoration: none;
     
 }
 
-.navbar hr {
+nav hr {
     margin: 0;
     border: none;
     border-top: 1.5px solid #171717;
