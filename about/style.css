@@ -49,7 +49,7 @@ h1, p {
 }
 
 .img-large {
-    width: 100%;
+    width: 100%; /* Sätt en max-width: 1281px annars fyller den skärmen till 100% på alla skärmar. Just nu syns inget blått på någon sida av stora bilden */
     aspect-ratio: 2.19 / 1;
     object-fit: cover;
     display: block;
@@ -57,7 +57,7 @@ h1, p {
 }
 
 .img-small {
-    width: 50%;
+    width: 50%; /* Samma här. Behövs en max-width: 604px, annars blir det 50% även på stor skärm */
     aspect-ratio: 1.12 / 1;
     object-fit: cover;
     display: block;
