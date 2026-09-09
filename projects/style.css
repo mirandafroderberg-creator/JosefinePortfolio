@@ -111,15 +111,22 @@ main {
 
 .card-img {
     width: 100%;
-    height: 350px;
     object-fit: cover;
+}
+
+.card-large .card-img {
+    aspect-ratio: 2.7 / 1;
+}
+
+.card-small .card-img {
+    aspect-ratio: 1.3 / 1;
 }
 
 .card-large {
     grid-column: 1 / -1;
     margin-top: 50px;
     width: 100%;
-    height: 500px;
+    height: auto;
     background-color: #F7F6F2;
     
 }
@@ -128,10 +135,11 @@ main {
 .card-small {
     margin-top: 30px;
     width: 600px;
-    height: 500px;
+    height: auto;
     background-color: #F7F6F2;
       
 }
+
 
 
 
