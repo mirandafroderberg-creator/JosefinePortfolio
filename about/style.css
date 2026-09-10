@@ -9,10 +9,18 @@ body {
 p {
   font-family: "Atkinson Hyperlegible Next", sans-serif;
   font-optical-sizing: auto;
+  font-size: larger;
   font-weight: 300;
   font-style: normal;
+  max-width: 800px;
+  margin: 0 auto;
+  
+  
 }
 
+figcaption {
+    font-weight: 300;
+}
 
 nav {
     background-color: white;    
@@ -41,10 +49,11 @@ nav a {
 
 nav hr { 
     border: none;
-    border-top: 1.5px solid black;       
+    border-top: 1.5px solid black; 
+    margin-bottom: 0;      
 }
 
-h1, p {
+h1 {
     text-align: center;
 }
 
@@ -54,9 +63,14 @@ h1, p {
     margin: 0 auto;
     aspect-ratio: 2.19 / 1;
     object-fit: cover;
-    display: block;
+    display: block;   
+}
+
+.img-wrapper {
+    background-color: #294C6B;
     
 }
+
 
 .img-small {
     width: 50%; /* Samma här. Behövs en max-width: 604px, annars blir det 50% även på stor skärm */
