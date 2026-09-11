@@ -14,8 +14,6 @@ p {
   font-style: normal;
   max-width: 800px;
   margin: 0 auto;
-  
-  
 }
 
 figcaption {
@@ -58,7 +56,7 @@ h1 {
 }
 
 .img-large {
-    width: 100%; /* Sätt en max-width: 1281px annars fyller den skärmen till 100% på alla skärmar. Just nu syns inget blått på någon sida av stora bilden */
+    width: 100%;
     max-width: 1281px;
     margin: 0 auto;
     aspect-ratio: 2.19 / 1;
@@ -68,17 +66,15 @@ h1 {
 
 .img-wrapper {
     background-color: #294C6B;
-    
 }
 
 
 .img-small {
-    width: 50%; /* Samma här. Behövs en max-width: 604px, annars blir det 50% även på stor skärm */
+    width: 50%;
     max-width: 604px;
     aspect-ratio: 1.12 / 1;
     object-fit: cover;
     display: block;
-    
 }
 
 .small-row {
@@ -101,7 +97,6 @@ figure {
     flex-direction: column;
     align-items: center;
 }
-
 
 
 
