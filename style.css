@@ -4,6 +4,7 @@ body{
     color: #171717;
     font-family: "Atkinson Hyperlegible Next";
     /* Om du inte vill ha lite white space runt allt på sidan: margin: 0; */
+    margin: 0;
 }
 h1, h2, h3{
     font-family: "Inter";
@@ -22,7 +23,7 @@ h3{
     color: #171717;
 }
 
-.main-nav{
+nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -93,7 +94,7 @@ h3{
     color: #F7F6F2;
     font-weight: bold;
 }
-.card-contrainer{ /* "contRainer?" och var det inte denna som ska ha vit bakgrund? Eller har du ändrat design att det ska vara en lucka mellan cardsen? */
+.card-container{ /* var det inte denna som ska ha vit bakgrund? Eller har du ändrat design att det ska vara en lucka mellan cardsen? */
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 20px;
@@ -154,7 +155,17 @@ h3{
     object-fit: cover;
     display: block;
 }
-/* Lägg in en ".SmallImageCard" för att stylea så att bild och textruta alltid får samma bredd */
+/* Lagt till ".SmallImageCard" för att stylea så att bild och textruta alltid får samma bredd */
+.SmallImageCard{
+    width: 100%;
+    max-width: 596px;
+}
+
+/* Lagt till ".SmallImageCard img" för att kunna ändra position på bilden i SmallImageCard */
+.SmallImageCard img{
+    object-position: 50% 40%;
+}
+
 .SmallImageCard h3{
     margin-top: 10px;
     margin-bottom: 7px;

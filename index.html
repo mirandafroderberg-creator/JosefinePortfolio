@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="main-nav"> <!-- Om det bara finns en "<nav>" behövs ingen class. Den är redan unik-->
+    <nav> <!-- Om det bara finns en "<nav>" behövs ingen class. Den är redan unik-->
         <div id="name">Josefine Marelius</div>
         <div id="navigationHeader">
             <ul>
@@ -17,20 +17,23 @@
             </ul>
         </div>
     </nav>
+
     <div class="HeroSection">
         <h1>Josefine Marelius</h1>
         <ul>
             <li>Ux designer</li> <!-- UX/UI? Eller vill du bara ha Ux nu? enligt Figma designen -->
             <li>Grafisk designer</li>
         </ul>
-        <p> I enjoy solving problems, thinking outside the box and creating <!-- Enligt din figma design har saknas det här en "<br>"-tagg -->thoughtful experiences that make things easier for people.</p>
-      <img src="chevron-down(3).svg" alt=""> <!-- Du behöver lägga till en länk med bokmärke här för att pilen ska ha en funktion -->
+        <p> I enjoy solving problems, thinking outside the box and creating <!-- Enligt din figma design ska det vara en "<br>"-tagg här --> <br>thoughtful experiences that make things easier for people.</p>
+        <a href="#projects">
+            <img src="img/chevron-down(3).svg" alt=""> <!-- Är nu en länk med bokmärke här för att pilen ska ha en funktion -->
+        </a>
     </div>
 
  
     <section class="card-section">
         <h2>What I do</h2>
-        <div class="card-contrainer"> <!-- "contRainer?" XD-->
+        <div class="card-container">
         
             <div class="Card">
                 <h3>Ux design</h3>
@@ -81,19 +84,22 @@
     </section>
 
     <!-- Lägg detta i en section för renare kod--> 
-        <h2>Selected projects</h2> <!-- Och för att kunna stylea denna h2 specifikt. Om du vill lägga in padding tex utan att påverka tidigare h2 -->
+        <h2 id="projects">Selected projects</h2> <!-- Och för att kunna stylea denna h2 specifikt. Om du vill lägga in padding tex utan att påverka tidigare h2 -->
         <div class="imageCard"> <!-- Ändra namn på bild-filer så att de inte har blanksteg -->
-            <img class="Big-Card" src="Bild 1.png" alt="Image of a laptop and phone with the Foodsharing Sweden website on"> <!-- Kolla upp alt-texter exempel. Väldigt sällan man behöver ange att bilden visar en bild, utan bara vad bilden visar-->
+            <img class="Big-Card" src="img/Bild 1.png" alt="Image of a laptop and phone with the Foodsharing Sweden website on"> <!-- Kolla upp alt-texter exempel. Väldigt sällan man behöver ange att bilden visar en bild, utan bara vad bilden visar-->
+            
             <div class="SmallText">
                 <h3>Foodsharing Sweden</h3> 
                 <p class="Project-type">UX/UI Design • Branding</p>
                 <p class="Project-description">Designing the digital experience and visual identity for a foodsharing organisation.</p>
             </div>
+
         </div>
 
     <section class="SmallCards">
         <div class="SmallImageCard">
-            <img class="Small-card" src="Uu bild 1.png" alt="Phone with an image of the Underbara Unge project open">
+            <img class="Small-card" src="img/Uu bild 1.png" alt="Phone with an image of the Underbara Unge project open">
+            
             <div class="SmallText">
                 <h3>Underbara Unge</h3>
                 <p class="Project-type">UX/UI Design</p>
@@ -102,7 +108,8 @@
         </div>
 
         <div class="SmallImageCard">
-            <img class="Small-card" src="Tao bild 1.png" alt="">
+            <img class="Small-card" src="img/Tao bild 1.png" alt="">
+            
             <div class="SmallText">
                 <h3>Tao Teaware</h3>
                 <p class="Project-type">Branding • Graphic Design</p>
@@ -113,12 +120,14 @@
 
     <!-- Lägg gärna även denna i en section -->
         <div class="imageCard">
-            <img class="Big-Card" src="By bild 1.png" alt="">
+            <img class="Big-Card" src="img/By bild 1.png" alt="">
+
             <div class="SmallText">
                 <h3>Byteatern Kalmarlänsteatern</h3> 
                 <p class="Project-type">Graphic Design • Motion</p>
                 <p class="Project-description">Marketing materials created for Byteatern Kalmar Länsteatern.</p>
             </div>
+
         </div>
 
 </body>
