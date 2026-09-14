@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #f7f6f2;
+  color: #171717;
+  font-family: "Atkinson Hyperlegible Next", Arial, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Inter, Arial, sans-serif;
+}
+header {
+  max-width: 1281px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 32px;
+  border-bottom: 1px solid #171717;
+}
+nav {
+  display: flex;
+  gap: 32px;
+}
+header a {
+  color: #171717;
+  text-decoration: none;
+}
+h1 {
+  font-size: 64px;
+  font-weight: 600;
+  color: #294c6b;
+  margin: 0;
+}
+.hero p {
+  margin-top: 8px;
+}
+h2 {
+  font-size: 36px;
+  font-weight: 600;
+}
+h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+p {
+  font-size: 24px;
+}
+.hero {
+  text-align: center;
+  padding: 80px 32px 60px;
+}
+.hero-image {
+  width: calc(100% - 128px);
+  aspect-ratio: 1281 / 585;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  margin: 0 auto;
+}
+.project-info {
+  display: flex;
+  background-color: #294c6b;
+  justify-content: space-between;
+  padding: 24px 32px;
+  color: #f7f6f2;
+}
+.challenge {
+  padding: 48px 32px;
+}
+.goals {
+  background-color: #294c6b;
+  color: #f7f6f2;
+  padding: 40px 32px;
+}
+.visual-design {
+  padding: 48px 32px;
+}
+
+.final-campaign {
+  background-color: #294c6b;
+  color: #f7f6f2;
+  padding: 48px 32px;
+}
+.final-campaign h3 {
+  margin-top: 48px;
+}
+.project-image {
+  width: 100%;
+  aspect-ratio: 1281 / 585;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+main {
+  max-width: 1281px;
+  margin: 0 auto;
+}
+video {
+  width: 100%;
+  aspect-ratio: 1281 / 585;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+footer {
+  max-width: 1281px;
+  margin: 0 auto;
+  padding: 32px;
+  background-color: #294c6b;
+  color: #f7f6f2;
+  border-top: 80px solid #f7f6f2;
+}
+
+footer nav {
+  display: flex;
+  gap: 32px;
+  padding-bottom: 32px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #f7f6f2;
+}
+
+footer a {
+  color: #f7f6f2;
+  text-decoration: none;
+}
+.footer-text {
+  padding-top: 16px;
+  margin-top: 32px;
+  margin-bottom: 0;
+  font-size: 16px;
+  text-align: center;
+}
